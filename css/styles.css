@@ -204,7 +204,8 @@ body {
     margin: 0 auto;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.5;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     margin-bottom: var(--typical-mrg);
     color: var(--white-text-color);
