@@ -781,6 +781,10 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
+
+    transition-property: transform;
+    transition-duration: var(--main-duration);
+    transition-timing-function: var(--main-cubic);
 }
 
 .backdrop.is-hidden .modal {
@@ -980,7 +984,7 @@ body {
 
 .checkbox-icon {
     position: absolute;
-    top: 0;
+    top: 4px;
     left: 5px;
     width: 16px;
     height: 15px;
